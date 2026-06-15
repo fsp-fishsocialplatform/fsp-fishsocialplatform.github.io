@@ -1,12 +1,12 @@
 # 工作日报 reports/
 
-每篇日报是这个目录下的一个 Markdown 文件。提交并推送到 `main` 后，GitHub Actions 会自动构建并发布到组织主页。
+每篇日报是这个目录下的一个 Markdown 文件。提交并推送到 `release` 后，GitHub Actions 会自动构建并发布到组织主页。
 
 ## 怎么发一篇
 
 1. 复制命名格式新建文件：`YYYY-MM-DD-你的名字.md`，例如 `2026-06-15-ivy.md`
 2. 文件顶部写 frontmatter，正文用 Markdown 自由发挥
-3. `git add` → `git commit` → `git push`，剩下交给 CI
+3. `git add` → `git commit` → `git push origin release`，剩下交给 CI
 
 ## 模板
 
